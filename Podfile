@@ -7,4 +7,11 @@ target 'BusBusterDemo' do
 
   # Pods for BusBusterDemo
 
+	pod 'Firebase/Core'
+	pod 'Firebase/Database'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Storage'
+	pod 'GeoFire', '>= 1.1'
+	pod 'SnapKit'
+
 end
